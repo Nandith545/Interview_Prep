@@ -1,0 +1,25 @@
+/* Author: nandith Malapati */
+class Solution {
+    public boolean isPalindrome(String s) {
+        int left =0 , right = s.length() -1;
+
+        while(left<right){
+            //move left pointer to next alpha numeric
+            char cLeft = s.charAt(left);
+            char cRight = s.charAt(right);
+
+            if(!Character.isLetterOrDigit(cLeft)){
+                left++;
+            }else if(!Character.isLetterOrDigit(cRight)){
+                right--;
+            }else{
+                if(Character.toLowerCase(cLeft) != Character.toLowerCase(cRight)){
+                    return false;
+                }
+                left++;
+                right--;
+            }
+        }
+        return true;
+    }
+}
