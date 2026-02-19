@@ -1,3 +1,5 @@
+/*Author: Nandith Malapati*/
+
 class Solution {
     public String addBinary(String a, String b) {
         StringBuilder sb = new StringBuilder();
