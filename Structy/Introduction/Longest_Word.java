@@ -2,14 +2,14 @@ class Source {
   public static String longestWord(String sentence) {
 
     String[] words = sentence.split(" ");
-    String longest = ""
+    String longest = "";
     
       for(String word : words) {
         if(word.length() >= longest.length()){
           longest = word;
         }
       }
-    return longestWord;
+    return longest;
   }
 
   public static void run() {
