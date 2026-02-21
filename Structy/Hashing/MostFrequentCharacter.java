@@ -4,7 +4,9 @@ class Source{
     public static HashMap<Character, Integer> charCount(String s){
         HashMap<Character, Integer> count = new HashMap<>();
         for(char c : s.toCharArray()){
-            count.put(c, count.getOrDefault(c, 0) + 1);
+            if(c != ' '){
+                count.put(c, count.getOrDefault(c, 0) + 1);
+            }
         }
         return count;
     }
