@@ -23,3 +23,11 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    n = size of linked list
+    Time: O(n)
+    Reason: We are traversing the linked list once for each node, so the time complexity is O(n).
+    Space: O(n)
+    Reason: We are using recursion, so the space complexity is O(n).
+*/
