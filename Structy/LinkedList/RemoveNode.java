@@ -32,3 +32,11 @@ class Source {
     // you may sandbox in this function , but should not remove it
   } 
 }
+
+/*
+    n = size of linked list
+    Time: O(n)
+    Reason: We are traversing the linked list once for each node, so the time complexity is O(n).
+    Space: O(1)
+    Reason: We are not using any extra space, so the space complexity is O(1).
+*/
