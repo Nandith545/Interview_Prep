@@ -47,3 +47,10 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*  
+n = number of nodes
+Time: O(n^2)
+Space: O(n)
+Reason: We are visiting each node once and adding the value to the list.
+*/
