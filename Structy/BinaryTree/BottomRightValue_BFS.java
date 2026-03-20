@@ -36,3 +36,9 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    n = number of nodes
+    Time: O(n)
+    Space: O(n)
+*/
