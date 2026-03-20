@@ -15,3 +15,9 @@ class Source {
     // you may sandbox in this function, but should not remove it
   }
 }
+
+/*
+    n = number of elements
+    Time: O(n)
+    Space: O(1)
+*/
