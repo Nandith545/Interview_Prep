@@ -25,3 +25,9 @@ class Source {
   }
 }
 
+/*
+    n = number of nodes
+    Time: O(n)
+    Space: O(n)
+*/
+
