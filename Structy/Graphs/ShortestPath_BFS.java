@@ -53,3 +53,9 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    e = number of edges
+    Time: O(e)
+    Space: O(e)
+*/
