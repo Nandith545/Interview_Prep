@@ -48,3 +48,10 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    r = number of rows
+    c = number of columns
+    Time: O(rc)
+    Space: O(rc)
+ */
