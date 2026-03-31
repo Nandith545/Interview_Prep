@@ -19,3 +19,8 @@ class Source {
   }
 }
 
+/*
+   n = length of string
+   Time: O(n)
+   Space: O(1)
+ */
