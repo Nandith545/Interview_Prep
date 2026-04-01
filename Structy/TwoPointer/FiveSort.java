@@ -24,3 +24,10 @@ class Source {
     // you may sandbox in this function, but should not remove it
   }
 }
+
+
+/*
+    n = length of array
+    Time: O(n)
+    Space: O(1)
+*/
