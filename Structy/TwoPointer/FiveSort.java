@@ -25,7 +25,6 @@ class Source {
   }
 }
 
-
 /*
     n = length of array
     Time: O(n)
