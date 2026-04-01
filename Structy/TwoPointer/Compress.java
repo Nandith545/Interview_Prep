@@ -25,3 +25,9 @@ class Source {
     // you may sandbox in this function, but should not remove it
   }
 }
+
+/*
+    n = length of string
+    Time: O(n)
+    Space: O(n)
+*/
