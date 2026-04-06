@@ -21,3 +21,10 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    n = length of string1
+    m = length of string2
+    Time: O(n + m)
+    Space: O(1)
+*/
