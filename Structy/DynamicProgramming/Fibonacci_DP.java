@@ -27,3 +27,9 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    n = length of the fibonacci sequence
+    Time: O(n)
+    Space: O(n)
+*/
