@@ -25,3 +25,10 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    n = length of the numbers list
+    Time: O(n)
+    Space: O(n)
+    Reason: We are using a memoization table to store the maximum non-adjacent sum to each index.
+*/
