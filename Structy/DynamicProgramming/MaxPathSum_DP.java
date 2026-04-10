@@ -32,3 +32,11 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    r = number of rows
+    c = number of columns
+    Time: O(r*c)
+    Space: O(r*c)
+    Reason: We are using a memoization table to store the maximum path sum to each cell.
+*/
