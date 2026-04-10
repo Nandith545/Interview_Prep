@@ -40,3 +40,11 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    a = amount
+    c = # coins
+    Time: O(a*c)
+    Space: O(a)
+    Reason: We are using a memoization table to store the minimum number of coins needed for each amount.
+*/
