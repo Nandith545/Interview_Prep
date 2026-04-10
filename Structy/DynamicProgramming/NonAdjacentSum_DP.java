@@ -2,28 +2,21 @@ import java.util.List;
 import java.util.HashMap;
 
 class Source {
-  public static int maxPathSum(List<List<Integer>> grid) {
-    return (int) maxPathSum(0, 0, grid, new HashMap<>());
+  public static int nonAdjacentSum(List<Integer> nums) {
+    return nonAdjacentSum(0, nums, new HashMap<>());
   }
 
-  public static double maxPathSum(int r, int c, List<List<Integer>> grid, HashMap<List<Integer>, Double> memo) {
-    
-    if(r == grid.size() || c == grid.get(0).size()){
-      return Double.NEGATIVE_INFINITY;
-    }
-    
-    if(r == grid.size() - 1 && c == grid.get(0).size() - 1){
-      return grid.get(r).get(c);
+  public static int nonAdjacentSum(int i, List<Integer> nums, HashMap<Integer, Integer> memo) {
+    if(i >= nums.size()){
+      return 0;
     }
 
-    List<Integer> pos = List.of(r, c);
-
-    if(memo.containsKey(pos)){
-      return memo.get(pos);
+    if(memo.containsKey(i)){
+      return memo.get(i);
     }
-    
-    double result = grid.get(r).get(c) + Math.max(maxPathSum(r+1, c, grid, memo), maxPathSum(r, c+1, grid, memo));
-    memo.put(pos, result);
+
+    int result = Math.max(nums.get(i) + nonAdjacentSum(i+2, nums, memo), nonAdjacentSum(i+1, nums, memo));
+    memo.put(i, result);
     return result;
   }
 
