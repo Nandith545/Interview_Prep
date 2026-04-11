@@ -38,3 +38,11 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*
+    a = amount
+    c = # coins
+    Time: O(a*c)
+    Space: O(a*c)
+    Reason: We are using a memoization table to store the number of ways to make change for each amount and coin index.
+*/
