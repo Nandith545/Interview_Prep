@@ -32,3 +32,10 @@ class Source {
     // you may sandbox in this function , but should not remove it
   }
 }
+
+/*  
+    n = the number to sum squares to
+    Time: O(n)
+    Space: O(n)
+    Reason: We are using a memoization table to store the minimum number of squares needed to sum to each number.
+*/
