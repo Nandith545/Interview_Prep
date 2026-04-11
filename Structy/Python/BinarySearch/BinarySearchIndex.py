@@ -11,3 +11,7 @@ def binary_search_index(nums, target):
         else:
             return mid
     return lo  
+
+#Time Complexity: O(log n)
+#Space Complexity: O(1)
+#Reason
