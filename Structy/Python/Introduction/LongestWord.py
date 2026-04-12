@@ -7,5 +7,5 @@ def longest_word(sentence):
   return longest
 
   #Time Complexity: O(n)
-  #Space Complexity: O(1)
-  #Reason: We are only using a single variable to store the longest word.
+  #Space Complexity: O(n)
+  #Reason: We are using a list to store the words and a variable to store the longest word.
