@@ -9,4 +9,8 @@ def most_frequent_char(s):
       best = char
   return best
     
-  
+# n is length of s
+#Time Complexity: O(n)
+#Space Complexity: O(n) 
+#Reason: We are using a dictionary to store the character counts.
+#Reason: We are iterating through the string to count the characters.
