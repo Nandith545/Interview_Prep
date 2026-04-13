@@ -10,3 +10,8 @@ def linked_list_values(head):
     list.append(current.val)
     current = current.next
   return list
+
+# n is the number of nodes in the linked list
+#Time Complexity: O(n)
+#Space Complexity: O(n)
+#Reason: We are using a list to store the values of the nodes.
