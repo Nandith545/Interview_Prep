@@ -10,3 +10,9 @@ def intersection_with_dupes(a, b):
       result.append(ele)
 
   return result
+
+# n is length of a and m is length of b
+#Time Complexity: O(n + m)
+#Space Complexity: O(n + m)
+#Reason: We are using a Counter to store the elements of a and b.
+#Reason: We are iterating through the elements of a and b to find the intersection.
