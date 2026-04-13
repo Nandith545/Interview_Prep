@@ -15,6 +15,11 @@ def _linked_list_values(head, values):
   #Recursive case
   values.append(head.val)
   _linked_list_values(head.next, values)
-  
+
+# n is the number of nodes in the linked list
+#Time Complexity: O(n)
+#Space Complexity: O(n)
+#Reason: We are using a list to store the values of the nodes.
+
   
     
