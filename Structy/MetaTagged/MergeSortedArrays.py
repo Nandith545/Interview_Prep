@@ -25,5 +25,10 @@ class Solution(object):
             nums1[last] = nums2[n - 1]
             last,n = last - 1, n - 1
 
+#Complexity Analysis
+# m - length of array nums1 and n - length of array nums2
+#Time complexity O( M + N)
+# Space complexity O(1) - No extra space used and is sorted in place
+
             
         
