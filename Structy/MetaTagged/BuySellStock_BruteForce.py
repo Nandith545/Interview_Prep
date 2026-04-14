@@ -11,3 +11,7 @@ class Solution(object):
                 if profit > max_profit:
                     max_profit = profit
         return max_profit
+
+#Complexity Analysis
+#Time complexity - O(N^2)
+#Space Complexity - O(1) - only two variables max_profit and profit are used
