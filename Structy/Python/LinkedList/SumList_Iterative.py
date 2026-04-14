@@ -10,3 +10,7 @@ def sum_list(head):
     sum += current.val
     current = current.next
   return sum
+
+#n = number of nodes
+#Time: O(n)
+#Space: O(1)
