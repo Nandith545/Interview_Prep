@@ -17,4 +17,8 @@ class Solution(object):
             else:
                 stack.append(c)
         return True if not stack else False
+
+#Complexity Analysis
+#Time Complexity - O(N) as we have to iterate throch the chars in a string
+#Space Complexity - O(N + N) ~ O(N) as we have used stack data structure to store the opening brackets and Hash Map for constant time Lookups
         
