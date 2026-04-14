@@ -13,4 +13,7 @@ class Solution(object):
                 max_profit = prices[i] - min_price
         return max_profit        
             
-        
+
+#Complexity Analysis
+# Time complexity - O(N) as it just takes a single pass 
+# Space complexity - O(1) as only two variables used and does not need any additional data structure  
