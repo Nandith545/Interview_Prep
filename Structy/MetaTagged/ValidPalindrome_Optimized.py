@@ -21,3 +21,7 @@ class Solution(object):
                 ord('a') <= ord(c) <= ord('z') or
                 ord('0') <= ord(c) <= ord('9'))
 
+#Complexity analysis
+#Time complexity - O(N)
+#Space Complexity - O(1) - No extra space/memory used
+
