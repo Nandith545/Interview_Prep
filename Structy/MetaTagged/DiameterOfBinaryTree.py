@@ -24,3 +24,9 @@ class Solution(object):
 
         dfs(root)
         return self.res
+
+#Complexity Analysis
+#If N are the Number of Tree Nodes, H - Height of tree
+# Time Complexity - O(N)
+#As the recursion should be performed across all the nodes
+#Space Complexity - O(h)
