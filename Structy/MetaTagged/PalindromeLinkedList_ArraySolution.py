@@ -16,4 +16,9 @@ class Solution:
             l += 1
             r -= 1
         return True
+
+#Complexity Analysis
+# If N is the number of nodes
+# Time complexity O(N)
+# Space complexity O(N) as we used an array to store the values of linked List
         
