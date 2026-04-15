@@ -31,5 +31,9 @@ class Solution:
             l = l.next
             r = r.next
         return True
+
+#Complexity Analysis
+# Time complexity O(N)
+# Space complexity O(1)
        
            
