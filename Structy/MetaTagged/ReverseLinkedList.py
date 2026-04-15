@@ -17,4 +17,8 @@ class Solution(object):
             prev = curr
             curr = nxt
         return prev
+
+#Complexity details
+#Time complexity O(N)
+# Space complexity O(1)
         
