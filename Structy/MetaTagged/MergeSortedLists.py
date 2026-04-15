@@ -12,6 +12,7 @@ class Solution(object):
         """
         dummy = ListNode()
         tail = dummy
+
         while list1 and list2:
             if list1.val < list2.val:
                 tail.next = list1
@@ -26,4 +27,7 @@ class Solution(object):
             tail.next = list2
         return dummy.next
 
-        
+#Complexity details
+# M - Length of list 1 and N is length of List2
+# Time complexity -  O(M + N)
+# Space complexity - O(1)
