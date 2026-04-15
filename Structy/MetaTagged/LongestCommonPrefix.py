@@ -11,3 +11,9 @@ class Solution(object):
                     return res
             res += strs[0][i]
         return res
+
+#Complexity Analysis:
+#m - no. of strings and n is the min length of the total strings
+
+#Time complexity - O(n* min(m))
+#Space complexity - O(1)
