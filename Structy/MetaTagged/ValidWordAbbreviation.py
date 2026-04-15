@@ -21,5 +21,9 @@ class Solution(object):
 
         return i == len(word) and j == len(abbr)
 
+#Complexity Analysis
+#Time complexity - O(M + N)
+#Space complexity - O(1) as we did not use any additional data structure
+
 
         
