@@ -17,3 +17,6 @@ class Solution:
         num[swap_i], num[swap_j] = num[swap_j], num[swap_i]
         return int("".join(num))
 
+#Complexity Analysis
+#Time - O(N) as we need to traverse through the didgits atleast once
+# Space - O(N) as we created a list of chars from num and handful of variables
