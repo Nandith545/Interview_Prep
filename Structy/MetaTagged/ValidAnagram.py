@@ -12,3 +12,6 @@ class Solution:
                 return False
         return True
 
+#Complexity
+# Time - O(S + T)
+# Space - O(S + T)
