@@ -3,3 +3,6 @@ class Solution:
         nums.sort()
         return nums[len(nums) - k]
         
+#complexity Analysis
+# Time - O(nlogn)
+# Space - O(1)
