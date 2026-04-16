@@ -11,3 +11,8 @@ class Solution:
             res[tuple(count)].append(s)
         
         return list(res.values())
+
+#Complexity Details
+#n - no. of strings, k - max string length
+# Time O(n*k)
+# Space O(n*k)
