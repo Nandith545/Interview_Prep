@@ -22,5 +22,10 @@ class Solution:
 
         return "".join(filtered[::-1])
 
+#Complexity Analysis
+#Time complexity - O(N)
+#Reason - one pass through the characters in a string, second pass in reverse and third to join and convert array to string
+#Space complexity - we use Res[] and filteres O(N + N) = O(N)
+
 
         
