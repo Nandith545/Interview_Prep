@@ -9,3 +9,7 @@ class Solution:
             if q in seen:
                 return q
             q = q.parent
+
+#Complexity Analysis:
+#Time - O(N) (Travers through both p and q parents) (Worst case)
+#Space - O(N) (used hash set to keep track of visited nodes)
