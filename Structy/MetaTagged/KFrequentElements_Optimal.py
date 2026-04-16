@@ -14,3 +14,7 @@ class Solution:
                 res.append(n)
                 if len(res) == k:
                     return res
+#Complexity Analysis:
+#Time - O(N
+#Space - O(N)
+
