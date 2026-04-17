@@ -11,3 +11,8 @@ class Solution:
             else:
                 return m
         return -1
+
+#Complexity:
+#N - length of the sorted array
+#Time - O(logn)
+#space - O(1)
