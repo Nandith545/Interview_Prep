@@ -11,3 +11,8 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         return slow
+
+
+#Complexity
+#Time - O(n)
+#Space - O(1)
