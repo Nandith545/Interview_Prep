@@ -16,3 +16,8 @@ class Solution:
                 return num
             return dfs(cur.left, num) + dfs(cur.right, num)
         return dfs(root, 0)        
+
+#Complexity Analysis:
+# n - no.of nodes, h - height of tree
+#Time - O(N)
+#Space - O(H) to store the call stack
