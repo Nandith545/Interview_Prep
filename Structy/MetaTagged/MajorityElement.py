@@ -9,3 +9,7 @@ class Solution:
             candidate = n if count[n] > max_count else candidate
             max_count = max(count[n], max_count)
         return candidate
+
+#Complexity
+#Time - O(n) - traverse through the list atleast once
+#Space - Using Hash Map DS to store all the element's and count
