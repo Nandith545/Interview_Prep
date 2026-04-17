@@ -16,3 +16,6 @@ class Solution:
             res = "1" + res
         return res
         
+#Complexity details:
+#Time - O(n) linear
+#Space - O(1) - bunch of variables
