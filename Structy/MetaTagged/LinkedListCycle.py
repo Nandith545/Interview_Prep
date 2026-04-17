@@ -16,3 +16,6 @@ class Solution:
                 return True
         return False 
         
+#Complexity Analysis
+#Time - O(N)
+#Space - O(1) we are not using ny extra space
