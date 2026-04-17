@@ -10,3 +10,8 @@ class Solution:
             return 0
         
         return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+
+#Complexity Analysis
+#Time - O(n) if not balanced
+#Space - O(n) call stack for recursion
+
