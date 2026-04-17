@@ -14,6 +14,10 @@ class Solution:
             balanced = (left[0] and right[0]) and abs(left[1] - right[1]) <= 1
             return [balanced, 1+ max(left[1], right[1])]
         return dfs(root)[0]
+
+#Complexity
+#Time - O(n) as we only raverse through the node once to check if the node is balanced from that spot and track both balance and height
+#Space - O(n) - We use call stack for recursion
             
 
         
