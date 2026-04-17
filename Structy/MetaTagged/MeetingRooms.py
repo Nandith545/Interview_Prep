@@ -9,4 +9,7 @@ class Solution:
             if i2[0] < i1[1]:
                 return False
         return True
-        
+
+#Complexity:
+#Time - O(nlogn)
+#Space - O(1)
