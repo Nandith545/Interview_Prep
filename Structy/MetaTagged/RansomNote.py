@@ -12,3 +12,9 @@ class Solution:
             else:
                 counter[c] -= 1
         return True 
+
+#Complexity
+# - length of magazine, n - length of ranso not
+# We iterate through both magazine and ransom not
+# Time - O(m + n)
+#Space - O(1)
