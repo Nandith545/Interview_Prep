@@ -15,4 +15,9 @@ class Solution:
         self.invertTree(root.left)
         self.invertTree(root.right)
         return root
+
+#Complexity:
+#N - no. of nodes
+# Time - O(n)
+# Space - O(n) as we use call stack for recursion
         
