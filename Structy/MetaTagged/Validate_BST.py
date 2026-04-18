@@ -15,3 +15,8 @@ class Solution:
             return (valid(node.left, left, node.val) and
                     valid(node.right, node.val, right))
         return valid(root, float("-inf"), float("inf"))
+
+#Complexity
+#n - no. of nodes
+#Time - O(n)
+#Space - O(n) - call stack
