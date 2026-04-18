@@ -10,3 +10,7 @@ class Solution:
                 i += 1
             else:
                 return [i + 1, j + 1]
+
+#Complexity:
+#Time - O(n)
+# Space - O(1)
