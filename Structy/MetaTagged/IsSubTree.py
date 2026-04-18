@@ -18,3 +18,7 @@ class Solution:
                     self.sameTree(s.right, t.right))
         return False
 
+#Complexity
+# m - nodes in root , n - nodes in subRoot
+#Time - O(m * n)
+#Space - O(m + n)
