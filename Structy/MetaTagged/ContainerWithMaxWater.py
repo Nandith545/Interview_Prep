@@ -11,3 +11,7 @@ class Solution:
             else:
                 r -= 1
         return res 
+
+#Complexity analysis
+#Time - O(n)
+#Space - O(1) - no additional ds used
