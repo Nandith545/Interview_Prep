@@ -7,3 +7,8 @@ class Solution:
             cur_sum += nums[i + k] - nums[i]
             max_sum = max(max_sum, cur_sum)
         return max_sum/k
+
+#Complexity:
+#N - No. of elements
+#Time - O(n)
+#Space - O(1)
