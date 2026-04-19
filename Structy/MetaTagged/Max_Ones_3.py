@@ -12,6 +12,10 @@ class Solution:
             max_ones = max(max_ones, end - start + 1)
             end += 1
         return max_ones
+#Complexity:
+#Length of chars in an Array
+#Time O(n) as all the elements are traversed atleast once
+#Space O(1) no additional space is used
                     
 
 
