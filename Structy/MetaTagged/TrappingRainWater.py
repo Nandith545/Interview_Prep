@@ -16,3 +16,7 @@ class Solution:
                 res += rightMax - height[r]
         return res
 
+#Complexity Analysis:
+#Time - O(n) - single pass
+#Space - O(1) - No extra spae is required
+
