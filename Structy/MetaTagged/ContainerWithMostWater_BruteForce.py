@@ -8,3 +8,7 @@ class Solution:
                 res = max(res, area)
         return res
 
+#Complexity analysis:
+#N is the length of the array
+#Time O(n2) - array has to be iterated twice to find best 2 matches
+#Space O(1) no additional data structure used for space
