@@ -16,3 +16,8 @@ class Solution:
                 stack.append(int (k) * substring)
         return "".join(stack)
 
+#Complexity :
+#N - legth of string
+#Time  O(n)
+#Space O(n) - stack data structure
+
