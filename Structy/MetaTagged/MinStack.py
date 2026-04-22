@@ -27,3 +27,7 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
+
+#Complexity Analysis:
+#Time - O(1)
+#Space - O(1)
