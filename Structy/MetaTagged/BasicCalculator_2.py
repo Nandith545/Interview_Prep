@@ -33,4 +33,7 @@ class Solution:
                 cur_operator = cur_char
             i += 1
         return res
-                
+
+#Complexity:
+#Time - O(N)
+# Space - O(1)    
