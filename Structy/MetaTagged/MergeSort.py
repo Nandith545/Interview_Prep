@@ -23,4 +23,6 @@ class MergeSort:
         result.extend(right[j:])
     return result
 
+#Time - O(nlogn)
+#Space - O(n)
         
