@@ -10,3 +10,7 @@ class Solution:
             res += prefixSums.get(diff, 0)
             prefixSums[curSum] = 1 + prefixSums.get(curSum, 0)
         return res
+
+#Complexity:
+#Time - O(N)
+#Space - O(N)
