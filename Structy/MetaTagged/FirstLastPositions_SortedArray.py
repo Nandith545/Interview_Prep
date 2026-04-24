@@ -20,6 +20,10 @@ class Solution:
                 else:
                     l = m + 1
         return i
+
+#Complexity:
+#Time: O(logN)
+#Space: O(1)
             
 
 
